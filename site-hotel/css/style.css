@@ -1,0 +1,223 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300&display=swap');
+
+
+body{
+    height: 100vh;
+}
+#topo{
+    width: 98.7vw;
+    height: 15vh;
+    background-color: blue;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+#topo > h1{
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    color: lightgray;
+    font-family: 'Oswald';
+}
+
+form{
+    height: 75vh;
+    border: 4px solid gray;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+}
+.campos{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid grey;
+    border-radius: 7px;
+    color: darkgrey;
+    width: 90vw;
+    font-family: 'Roboto Condensed';
+}
+#seletor{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid grey;
+    border-radius: 7px;
+    color: darkgrey;
+    width: 30vw;
+    font-family: 'Roboto Condensed';
+    font-weight: bolder;
+}
+section{
+    text-align: center;
+    padding: 5px;
+}
+
+
+footer{
+    width: 98.7vw;
+    height: 22vh;
+    background-color: blue;
+    margin-bottom: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+footer > p{
+    padding: 20px;
+    font-family: monospace;
+    color: lightgray;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7em;
+    list-style: none;
+}
+
+#insta {
+    color: lightgray;
+}
+#insta:hover {
+    color: white;
+}
+
+#tw {
+    color: lightgray;
+}
+#tw:hover {
+    color: white;
+}
+
+#git {
+    color: lightgray;
+}
+#git:hover {
+    color: white;
+}
+
+#kedin {
+    color: lightgray;
+}
+#kedin:hover {
+    color: white;
+}
+
+
+
+
+
+@media (min-width:360px){
+    
+    #topo{
+        width: 749px;
+    }
+    form{
+        width: 700px;
+        height: 85vh;
+    }
+    .campos{
+        width: 635px;
+        font-size: 0.6em;
+    }
+    #seletor{
+        width: 340px;
+        font-size: 0.6em;
+    }
+    
+    section>input{
+        width: 210px;
+        height: 70px;
+        padding: 10px;
+    }
+    footer{
+        width: 749px;
+        height: 150px;
+        font-size: 0.9em;
+    }
+}
+
+
+
+
+
+
+    @media (min-width:768px) {
+        #topo{
+            width: 1003px;
+        }
+        form{
+            width: 950px;
+            
+        }
+        .campos{
+            width: 880px;
+            font-size: 0.8em;
+        }
+        #seletor{
+            width: 440px;
+            font-size: 0.8em;
+        }
+        section>input{
+            width: 200px;
+            height: 80px;
+            
+        }
+        footer{
+            width: 1003px;
+            height: 160px;
+            font-size: 1em;
+        }
+
+    }
+
+
+
+
+
+
+    @media (min-width:1024px){
+        
+        #topo{
+            width: 98.7vw;
+            height: 15vh;
+            margin-bottom: 20px;
+        }
+       
+        
+        form{
+            height: 80vh;
+            width: 95vw;
+            padding: 20px;
+            margin: 25px;
+        }
+        .campos{
+            width: 90vw;
+        }
+        #seletor{
+            width: 40vw;
+        }
+        section{
+            text-align: center;
+        }
+        section>input{
+            width: 215px;
+        }
+        
+        
+        footer{
+            width: 98.7vw;
+            height: 22vh;
+        }
+        footer > p{
+            padding: 20px;
+        }
+        
+        
+        
+        
+    }
